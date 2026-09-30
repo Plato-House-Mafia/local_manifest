@@ -3,20 +3,26 @@
     <!--Remotes-->
     <remote name="plato"          fetch="https://github.com/mt6895-plato"          revision="17.0"         />
     <remote name="gl"             fetch="https://gitlab.com/archcloudy"            revision="17.0"         />
+    <remote name="esk"            fetch="https://github.com/ESK-Project"           revision="main"         />
+    <remote name="phm"            fetch="https://github.com/Plato-House-Mafia"     revision="17.0"         />
+    <remote name="pixelos"        fetch="https://github.com/PixelOS-AOSP"          revision="seventeen"    />
 
     <!--Devices Trees-->
-    <project name="android_device_xiaomi_plato"             path="device/xiaomi/plato"             remote="plato"   />
-    <project name="android_device_xiaomi_mt6895-common"     path="device/xiaomi/mt6895-common"     remote="plato"   />
-    <project name="android_device_mediatek_sepolicy_vndr"   path="device/mediatek/sepolicy_vndr"   remote="plato"   />
+    <project name="android_device_xiaomi_plato"             path="device/xiaomi/plato"                     remote="plato"   />
+    <project name="android_device_xiaomi_mt6895-common"     path="device/xiaomi/mt6895-common"             remote="phm"     />
+    <project name="android_device_mediatek_sepolicy_vndr"   path="device/mediatek/sepolicy_vndr"           remote="plato"   />
 
     <!--Vendors Tree-->
-    <project name="android_vendor_xiaomi_mt6895-common"     path="vendor/xiaomi/mt6895-common"     remote="plato"   />
-    <project name="android_vendor_xiaomi_plato"             path="vendor/xiaomi/plato"             remote="gl"      />
+    <project name="android_vendor_xiaomi_mt6895-common"     path="vendor/xiaomi/mt6895-common"             remote="plato"   />
+    <project name="android_vendor_xiaomi_plato"             path="vendor/xiaomi/plato"                     remote="gl"      />
 
     <!--Kernel Tree-->
-    <project name="android_kernel_xiaomi_mt6895"            path="kernel/xiaomi/mt6895"            remote="plato"   />
+    <project name="android_kernel_xiaomi_mt6895"            path="kernel/xiaomi/mt6895"                    remote="esk"     />
 
     <!--Hardware dependencies-->
-    <project name="android_hardware_xiaomi"                 path="hardware/xiaomi"                 remote="plato"   />
-    <project name="android_hardware_mediatek"               path="hardware/mediatek"               remote="plato"   />
+    <project name="android_hardware_xiaomi"                 path="hardware/xiaomi"                         remote="plato"   />
+    <project name="android_hardware_mediatek"               path="hardware/mediatek"                       remote="plato"   />
+
+    <!--Packages-->
+    <project name="android_packages_apps_DolbyAtmos"        path="packages/apps/DolbyAtmos"                remote="pixelos" />
 </manifest>
