@@ -4,7 +4,6 @@
     <remote name="plato"          fetch="https://github.com/mt6895-plato"          revision="17.0"         />
     <remote name="gl"             fetch="https://gitlab.com/alcproduction"         revision="17.0"         />
     <remote name="phm"            fetch="https://github.com/Plato-House-Mafia"     revision="17.0"         />
-    <remote name="pixelos"        fetch="https://github.com/PixelOS-AOSP"          revision="seventeen"    />
     <remote name="glcam"          fetch="https://gitlab.com/archcloudy"            revision="17.0"         />
 
     <!--Devices Trees-->
@@ -28,6 +27,6 @@
     <project name="android_vendor_xiaomi_plato-miuicamera"  path="vendor/xiaomi/plato-miuicamera"          remote="glcam"   />
 
     <!--Packages-->
-    <project name="android_packages_apps_DolbyAtmos"        path="packages/apps/DolbyAtmos"                remote="pixelos" />
+    <project name="android_packages_apps_DolbyAtmos"        path="packages/apps/DolbyAtmos"                remote="phm"     />
     <project name="proprietary_vendor_JamesDSP"             path="proprietary/vendor/JamesDSP"             remote="phm"     />
 </manifest>
