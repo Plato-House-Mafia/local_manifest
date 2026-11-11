@@ -3,7 +3,7 @@
 ### Android 17 QPR0 for Xiaomi 12T
 Use this Local manifest to build your Custom ROM for Xiaomi 12T!\
 To get started, place `plato.xml` into your custom rom local_manifests: `.repo/local_manifests/plato.xml`\
-All credits and work goes to [Xiaomi MT6895 Devs](https://github.com/xiaomi-mt6895-devs) and [XagaForge](https://github.com/XagaForge).
+Big thanks to  [Xiaomi MT6895 Devs](https://github.com/xiaomi-mt6895-devs), [XagaForge](https://github.com/XagaForge) and [ESK Project](https://github.com/ESK-Project).
 
 Below is all of the sources used to build:
 Required files   | Source
