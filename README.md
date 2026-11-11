@@ -18,8 +18,8 @@ Kernel Dependencies  | [android_kernel_xiaomi_mt6895](https://github.com/Plato-H
 
 Basic   | Spec Sheet
 -------:|:-------------------------
-CPU     | Octa-core CPU with 4x Arm Cortex-A78 up to 2.85GHz
-Chipset | Mediatek Dimensity 8100
+CPU     | Octa-core CPU with 4x ARM Cortex-A78 up to 2.85GHz and 4x ARM Cortex-A55 up to 2.00GHz
+Chipset | Mediatek Dimensity 8100-Ultra (MT6895Z)
 GPU     | Mali-G610 MC6
 Memory  | 8 GB RAM (LPDDR5 6400Mbps)
 Shipped Android Version | 12
