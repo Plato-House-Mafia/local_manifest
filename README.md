@@ -36,4 +36,26 @@ SAMSUNG | KLUEG8UHGC-BOE1    | 256 GB
 SKhynix | HN8T05DEHKX073     | 128 GB
 SKhynix | HN8T15DEHKX075     | 256 GB
 
+## Hardware information
+
+Hardware | Spec
+--------:|:--------
+Accelerometer | lsm6dsoq_acc
+Magnetometer  | qmc6308
+NFC           | qcom, nq-nci
+Fingerprint   | goodix_fp
+Haptic        | awinic_haptic
+Gyroscope     | lsn6dsoq_gyro
+Als           | stk3bcx_als
+ps            | virtual_prx
+Lens AF       | dw9800v
+Charger       | bq27z561, sc8561_charger
+PMIC          | mt6375, wl2866d_regulator
+Wi-Fi         | CONSYS_MT6895
+LCM           | l12a_42_02_0a_dsc_cmd_lcd_drv
+Touchscreen   | gtx8_spi
+Audio         | cs35I41
+Sound         | mt6895, mt6368
+Camera        | s5khm6_mipi_raw_plato, imx596_mipi_raw_plato, s5k4h7_mipi_raw_plato, gc02mi_mipi_raw_plato
+
 ![Xiaomi 12T](https://i02.appmifile.com/898_operator_sg/26/08/2022/fc94660da1d6dd006f7589327bb72813.png)
