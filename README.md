@@ -26,5 +26,14 @@ Shipped Android Version | 12 (Snow Cone)
 EOL Android Version | 15 (Vanilla Ice Cream)
 Battery | Li-Po 5000 mAh, non-removable
 Display | 1220 x 2712 pixels, 6.67 inches, 60hz/90hz/120hz
+Memory Yype | UFS 3.1
+
+## Memory vendors and provisions
+Memory Vendor   | Partnumber | Size
+-------:|:------------------:|:--------------
+SAMSUNG | KLUDG4UHGC-BOE1    | 128 GB
+SAMSUNG | KLUEG8UHGC-BOE1    | 256 GB
+SKhynix | HN8T05DEHKX073     | 128 GB
+SKhynix | HN8T15DEHKX075     | 256 GB
 
 ![Xiaomi 12T](https://i02.appmifile.com/898_operator_sg/26/08/2022/fc94660da1d6dd006f7589327bb72813.png)
