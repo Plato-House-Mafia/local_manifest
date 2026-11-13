@@ -3,7 +3,7 @@
     <!--Remotes-->
     <remote name="plato"          fetch="https://github.com/mt6895-plato"          revision="17.0"         />
     <remote name="gl"             fetch="https://gitlab.com/alcproduction"         revision="17.0"         />
-    <remote name="phm"            fetch="https://github.com/Plato-House-Mafia"     revision="17.0-tmp"         />
+    <remote name="phm"            fetch="https://github.com/Plato-House-Mafia"     revision="17.0"         />
     <remote name="glcam"          fetch="https://gitlab.com/archcloudy"            revision="17.0"         />
 
     <!--Devices Trees-->
@@ -14,6 +14,9 @@
     <!--Vendors Tree-->
     <project name="android_vendor_xiaomi_mt6895-common"     path="vendor/xiaomi/mt6895-common"             remote="plato"   />
     <project name="android_vendor_xiaomi_plato"             path="vendor/xiaomi/plato"                     remote="gl"      />
+
+    <!--Kernel Tree-->
+    <project name="android_kernel_xiaomi_mt6895"            path="kernel/xiaomi/mt6895"                    remote="phm      />
 
     <!--Hardware dependencies-->
     <project name="android_hardware_xiaomi"                 path="hardware/xiaomi"                         remote="plato"     />
